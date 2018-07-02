@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
       dl.href = canvas.toDataURL();
       dl.download = 'Image';
       dl.click();
-      alert('download clicked');
     });
 
     navigator.mediaDevices.getUserMedia(constraints)
